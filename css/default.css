@@ -20,8 +20,29 @@ h4.margem{
     margin: 30px 0px 20px 0px;
     padding-top: 10px;
     border-top: 5px solid #72B8EC;
+    overflow: auto;
+    position: relative;
 }
 
-img.w-100{
-    height: 600px;
+.fixedheight > img{
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.rodape{
+    background-color: #2E2E2E;
+    margin: 20px 0px 0px 0px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+.rodape a{
+    color: white;
+}
+p.port {
+    border-top: 0.01rem solid white;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
 }
