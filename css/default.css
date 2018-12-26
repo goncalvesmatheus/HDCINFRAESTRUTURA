@@ -46,3 +46,73 @@ p.port {
     padding: 5px;
     margin: 10px 0px 0px 0px;
 }
+
+.background-sobre{
+    margin: 10px 0px 20px 0px;
+    background-image: url(/img/back.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.background-sobre p{
+    color: white;
+    float: right;
+    text-align: justify;
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-background{
+    padding-top: 10px 10px 10px 10px;
+    background-color: #1E2967;
+    overflow: auto;
+    position: relative;
+}
+
+.div-background p{
+    color: white;
+    padding: 10px 0px 10px 0px ;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+.background-contato{
+    margin: 10px 0px 20px 0px;
+    background-image: url(/img/contato-background.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.background-contato p{
+    color: black;
+    float: right;
+    text-align: justify;
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-form{
+    padding-top: 10px 10px 10px 10px;
+    background-color: #1E2967;
+    overflow: auto;
+    position: relative;
+}
+
+.div-form p{
+    color: white;
+    padding: 50px 0px 10px 0px ;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #72B8EC;
+    border:  solid #72B8EC;
+    margin: 10px;
+}
