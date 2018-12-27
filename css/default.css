@@ -97,7 +97,7 @@ p.port {
 
 .div-form{
     padding-top: 10px 10px 10px 10px;
-    background-color: #1E2967;
+    background-color: #72B8EC;
     overflow: auto;
     position: relative;
 }
@@ -112,7 +112,7 @@ p.port {
 }
 
 .btn{
-    background-color: #72B8EC;
-    border:  solid #72B8EC;
+    background-color: #1E2967;
+    border:  solid #1E2967;
     margin: 10px;
 }
