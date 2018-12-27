@@ -112,7 +112,8 @@ p.port {
 }
 
 .btn{
-    background-color: #1E2967;
-    border:  solid #1E2967;
+    background-color: #E8E8E8;
+    border: solid #E8E8E8;
     margin: 10px;
+    color: black;
 }
