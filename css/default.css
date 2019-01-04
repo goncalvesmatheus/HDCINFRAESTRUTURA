@@ -7,6 +7,10 @@ a.link {
     background-color: #72B8EC;
 }
 
+.navbar ul.navbar-nav > li > a {
+    text-decoration: underline;
+}
+
 h2.margem{
     margin: 20px 0px 20px 0px;
 }
@@ -47,6 +51,10 @@ p.port {
     margin: 10px 0px 0px 0px;
 }
 
+
+
+/* Background- SOBRE */
+
 .background-sobre{
     margin: 10px 0px 20px 0px;
     background-image: url(/img/back.jpg);
@@ -56,9 +64,9 @@ p.port {
 
 .background-sobre p{
     color: white;
-    float: right;
+    float: left;
     text-align: justify;
-    padding: 30px 0px 0px 0px;
+    padding: 250px 0px 0px 0px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,12 +80,32 @@ p.port {
 
 .div-background p{
     color: white;
-    padding: 10px 0px 10px 0px ;
-    margin-bottom: 0px;
+    padding: 0px 10px 0px 10px ;
+    margin: 20px 30px 20px 30px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    position: relative;
     font-size: 16px;
 }
+
+.div-sobre{
+    padding-top: 10px 10px 10px 10px;
+    background-color: white;
+    overflow: auto;
+    position: relative;
+}
+
+.div-sobre p{
+    color: black;
+    padding: 0px 10px 0px 10px ;
+    margin: 20px 30px 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 16px;
+}
+
+
+/* Background- CONTATO */
+
 
 .background-contato{
     margin: 10px 0px 20px 0px;
@@ -86,8 +114,10 @@ p.port {
     height: 300px;
 }
 
+
+
 .background-contato p{
-    color: black;
+    color: white;
     float: right;
     text-align: justify;
     padding: 30px 0px 0px 0px;
@@ -95,9 +125,22 @@ p.port {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.50) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* FORMULARIO - CONTATO */
+
+
 .div-form{
     padding-top: 10px 10px 10px 10px;
-    background-color: #72B8EC;
+    background-color: #1E2967;
     overflow: auto;
     position: relative;
 }
