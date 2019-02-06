@@ -24,7 +24,7 @@
     $alerta = 'Formulário enviado, obrigado pelo contato!';
 
 
-    return mail($destino, $assunto, $nome, $email, $telefone, $mensagem);
+    mail($destino, $assunto, $nome, $email, $telefone, $mensagem);
 
     echo $alerta;
 
